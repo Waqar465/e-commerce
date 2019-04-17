@@ -1,0 +1,158 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	background:#39C  ;
+}
+
+.main_wrapper{
+	
+	width:1000px;
+	height:auto;
+	margin:auto;
+	
+}
+.header_wrapper{
+	width:1000px;
+	height:100px;
+	background:#fff;
+	
+}
+#nav_bar{
+	width:1000px;
+	height:50px;
+	background:grey;
+	color:white;
+}
+#menu{
+	float:left;
+	line-height:auto;
+	padding:0px;	
+	margin-top:13px;
+}
+#menu li{
+	height:50px;
+	list-style:none;
+	display:inline;
+}
+#menu a{
+	text-decoration:none;
+	font-size:20px;
+	padding:10px;
+
+	height:50px;
+}
+#menu a:hover{
+	color:white;
+	background:orange;
+}
+#form{
+	float:right;
+	line-height:50px;
+	padding-right:10px;
+}
+
+.content_wrapper{
+	width:1000px;
+	height:auto; 
+	background:#123;
+	color:orange;
+}
+#content_right{
+	width:800px;
+	float:right;
+	background:pink;
+	color:black;
+}
+#headline{
+background:#000; height:35px; width:780px; padding:10px; color:#FFFFFF; float:right; 	
+}
+#headline_content{ float:right;}
+
+#products_box{
+width:780px;
+margin-bottom:10px;
+margin-top:10px;
+margin-left:30px;
+padding:10px;
+text-align:center;	
+}
+#single_prod{
+float:left; padding:20px; ;
+}
+#single_prod img{
+border:2px solid black; 	
+}
+#left_sidebar{
+	width:200px;
+	float:left;
+	background:black;
+	color:white;	
+}
+.footer{
+	width:1000px;
+	height:75px;
+	
+	padding-top:30px;
+	background:grey;
+	color:Black;
+	clear:both;
+}
+
+#content_title{
+	color:#000000;
+	background:#FFFFFF;
+	padding:10px;
+	text-align:center;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:24px;
+	
+	}
+	#left_sidebar ul{
+		list-style:none;
+		padding:0px;
+	}
+	#left_sidebar ul a{
+		text-decoration:none;
+		display:block;
+		padding:10px;
+		font-size:18px;
+		color:white;
+		
+		}
+	#left_sidebar ul a:hover {
+		text-decoration:underline;
+		display:block;
+		background:#F93;
+		padding:10px;
+		font-size:18px;
+		color:white;
+		
+		}
+	
